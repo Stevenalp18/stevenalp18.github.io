@@ -1,4 +1,4 @@
-#<a href="https://stevenalp18.github.io/" target="_blank">Personal Portfolio</a>
+<h1><<a href="https://stevenalp18.github.io/" target="_blank">Personal Portfolio</a></h1>
 
 Hey there my name is Steven Perez, 
 
