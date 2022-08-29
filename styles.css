@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg, hsla(0, 46%, 46%, 0.685), rgba(0, 87, 128, 0.692)), url(/Images/computer.jpg);
+    background-size: cover;
+}
+
+.box1{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 37vh;
+}
+.center-text{
+    font-family: Montserat, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: rgb(219, 226, 233);
+    animation-duration: 1s;
+    text-align: center;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.footer{
+    text-align: center;
+    margin: auto;
+}
+
+.footer ul{
+    list-style-type: none;
+    display: inline-flex;
+    column-gap: 2rem;
+}
+
+.animate__bounce{
+    animation-duration: 2s;
+}
+
+.link{
+    padding: 1rem;
+    background-color: rgba(240, 248, 255, 0.247);
+    border: 0;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: monospace, sans-serif;
+}
+
+.link:hover{
+    background-color: rgba(178, 183, 187, 0.884);
+    color: white;
+    text-decoration: none;
+}
+
+.link-btn:active{
+    background-color: rgb(107, 109, 110);
+    text-decoration: none;
+}
+
+
+.link, link:visited{
+    color: rgb(219, 226, 233);
+    text-decoration: none;
+}
+
+/* Media Queries */
+@media (max-width: 800px){
+    .center-text{
+        font-size: 3rem;
+    }
+}
