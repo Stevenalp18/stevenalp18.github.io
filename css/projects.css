@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import 'animate.css';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+    background-image: linear-gradient(90deg, hsla(0, 46%, 46%, 0.7), rgba(0, 87, 128, 0.8)), url(/Images/computer.jpg);
+    background-size: cover;
+    padding: 5vh;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(183, 196, 185, 0.356);
+}
+
+h1{
+    text-align: center;
+    padding: 1rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: rgb(219, 226, 233);
+}
+
+.showcase{
+    margin: auto;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 100px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.projects{
+    height: auto;
+    width: 40%;
+    flex-basis: auto;
+}
+
+.project-img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+h2{
+    margin: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.description{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.5rem;
+    color: rgb(228, 228, 228);
+    margin-bottom: 1rem;
+}
+
+.list{
+    margin: auto auto auto;
+    text-decoration: none;
+    width: 100%;
+}
+
+.list li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 2rem 1rem 3rem 1rem;
+}
+
+.link-a{
+    text-decoration: none;
+    color:rgb(219, 226, 233);
+}
+
+.link{
+    color: rgb(219, 226, 233);
+    text-align: center;
+    padding: 1rem;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.247);
+}
+
+.link:hover{
+    background-color: rgba(178, 183, 187, 0.884);
+    color: white;
+    text-decoration: none;
+}
+
+.link-btn:active{
+    background-color: rgb(107, 109, 110);
+    text-decoration: none;
+}
+
+
+.link, link:visited{
+    color: rgb(219, 226, 233);
+    text-decoration: none;
+}
+
+@media (max-width: 800px){
+    .projects{
+        width: 80%;
+    }
+
+}
