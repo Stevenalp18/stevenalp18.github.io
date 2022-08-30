@@ -20,7 +20,7 @@
     top: 37vh;
 }
 .center-text{
-    font-family: Montserat, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 3.5rem;
     font-weight: 600;
     color: rgb(219, 226, 233);
@@ -77,4 +77,5 @@
     .center-text{
         font-size: 3rem;
     }
+    
 }
