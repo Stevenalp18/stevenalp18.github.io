@@ -92,6 +92,25 @@ body{
     text-decoration: none;
 }
 
+.animate__bounce{
+    animation-duration: 2s;
+}
+
+.animate__bounceInDown{
+    animation-duration: 1s;
+}
+
+.animate__bounceInLeft{
+    animation-duration: 4s;
+}
+
+.animate__bounceInRight{
+    animation-duration: 3s;
+}
+
+.animate__fadeIn{
+    animation-duration: 3s;
+}
 
 @media (max-width: 800px) {
     .container{
