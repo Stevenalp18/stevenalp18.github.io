@@ -8,10 +8,41 @@
     <link rel="icon" type="image/x-icon" href="/Images/selfie.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="/css/contact.css">
 </head>
 <body>
-    <h1>Hey there, I am still working on this page, will be done soon!</h1>
-    <iframe src="https://giphy.com/embed/tXL4FHPSnVJ0A" width="480" height="317" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/kim-novak-tXL4FHPSnVJ0A"></a></p>
+    <div class="container">
+      <div>
+        <h1 class="animate__backInLeft">Contact Me</h1>
+      </div>
+        <form class=" animate__bounceIn form" id="form" action="https://www.actionforms.io/e/r/contact-me"
+    method="post">
+    <div>
+       <label for="name">Name</label>
+       <input type="text" name="name" required>
+    </div>
+    <div>
+       <label for="email">Email</label>
+       <input type="email" email="email" required>
+    </div>
+    <div>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="12]" rows="10" required></textarea>
+    </div>
+    <div class="captcha">
+      <p>Are you Human?</p>
+      <label for="yes">Yes</label>
+      <input required type="checkbox" id="yes" name="captcha" value="yes">
+      <label for="no">No</label>
+      <input type="checkbox" id="no" name="captcha" value="no">
+    </div>
+    <button type="submit">Send form</button>
+</form>
+<ul class="list">
+  <li class="animate__bounce"><a href="../index.html" class="link">Home</a></li>
+  <li class="animate__bounce"><a href="about.html" class="link">About</a></li>
+  <li class="animate__bounce"><a href="contact.html" class="link">Contact</a></li>
+</ul>
+</div>
 </body>
 </html>

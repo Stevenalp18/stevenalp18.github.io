@@ -1,7 +1,176 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import 'animate.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(45deg, hsla(0, 46%, 46%, 0.685), rgba(0, 87, 128, 0.692)), url(/Images/computer.jpg);
+    background-size: cover;
+}
+
+.container{
+    width: 80%;
+    height: auto;
+    margin: 4rem auto;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(183, 196, 185, 0.356);
+}
+
+h1{
+    text-align: center;
+    padding: 1rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: rgb(219, 226, 233);
+}
+
+.form{
+    padding: 3rem;
+    margin: auto;
+    width: 60%;
+}
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    width: 100%;
+    font-weight: 600;
+}
+
+input, textarea{
+    margin: 1rem auto;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(248, 247, 247);
+    font-size: 1.3rem;
+    border: 0;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px;
+}
+
+button{
+    margin-top: 1rem;
+    border: 0;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-family: monospace, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: aliceblue;
+    background-color: rgb(71, 71, 71);
+}
+
+.captcha label, .captcha input{
+    width: 5%;
+}
+
+.captcha p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    width: 100%;
+    font-weight: 600;
+}
+
+input[type="checkbox"]{
+    height: 1rem;
+    margin-right: 10px;
+}
+
+.footer{
+    text-align: center;
+    margin: auto;
+}
+
+.footer ul{
+    list-style-type: none;
+    display: inline-flex;
+    column-gap: 2rem;
+}
+
+.animate__backInLeft{
+    animation-duration: 2s;
+}
+
+.animate__bounce{
+    animation-duration: 2s;
+}
+
+.animate__rollIn{
+    animation-duration: 2s;
+}
+
+.animate__bounceIn{
+    animation-duration: 3s;
+}
+
+.list{
+    margin: auto auto auto;
+    text-decoration: none;
+    width: 100%;
+}
+
+.list li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 2rem 1rem 3rem 1rem;
+}
+
+.link-a{
+    text-decoration: none;
+    color:rgb(219, 226, 233);
+}
+
+.link{
+    color: rgb(219, 226, 233);
+    text-align: center;
+    padding: 1rem;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.247);
+}
+
+.link:hover{
+    background-color: rgba(178, 183, 187, 0.884);
+    color: white;
+    text-decoration: none;
+}
+
+.link-btn:active{
+    background-color: rgb(107, 109, 110);
+    text-decoration: none;
+}
+
+
+.link, link:visited{
+    color: rgb(219, 226, 233);
+    text-decoration: none;
+}
+
+@media (max-width: 1200px){
+    .form{
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px){
+    .container{
+        width: 90%;
+    }
+
+    .form{
+        width: 95%;
+    }
+
+    input[type="checkbox"]{
+        height: 1rem;
+        margin-right: 1.4rem;
+    }
 }

@@ -124,6 +124,10 @@ h1{
     border-radius: 15px;
 }
 
+.animate__bounce{
+    animation-duration: 4s;
+}
+
 .animate__bounceInDown{
     animation-duration: 2s;
 }
@@ -132,9 +136,7 @@ h1{
     animation-duration: 2s;
 }
 
-.animate__bounce{
-    animation-duration: 4s;
-}
+
 
 @media (max-width: 800px){
     .projects{
